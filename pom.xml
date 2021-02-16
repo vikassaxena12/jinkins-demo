@@ -38,7 +38,7 @@
 			      <applicationName>jenkins-deploy-demo</applicationName>
 			      <environment>Sandbox</environment>
 			      <workers>1</workers>
-				  <workerType>Mirco</workerType>
+				  <workerType>Micro</workerType>
 				  <muleVersion>4.3.0</muleVersion>
 				</cloudHubDeployment>
 				</configuration>
