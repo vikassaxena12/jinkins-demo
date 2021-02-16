@@ -31,6 +31,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<cloudHubDeployment>
+				  <username>vikassaxena12</username>
+			      <password>Nvidia@4d</password>
+			      <applicationName>jenkins-deploy-demo</applicationName>
+			      <environment>Sandbox</environment>
+			      <workers>1</workers>
+				  <workerType>Mirco</workerType>
+				  <muleVersion>4.3.0</muleVersion>
+				</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
