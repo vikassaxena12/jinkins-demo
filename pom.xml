@@ -32,6 +32,7 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
+				 <uri>https://anypoint.mulesoft.com</uri>
 				  <username>vikassaxena12</username>
 			      <password>Nvidia@4d</password>
 			      <applicationName>jenkins-deploy-demo</applicationName>
