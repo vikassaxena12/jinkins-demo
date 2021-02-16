@@ -14,6 +14,12 @@ stages{
 	}
 	}
 	
+	stage('Run Test Cases - Report'){
+	steps{	
+	bat 'C:\\Users\\vsaxena\\AppData\\Roaming\\npm\\newman run C:\\Users\\vsaxena\\Desktop\\MuleSoft\\testcases\\Demo.postman_collection.json --disable-unicode'
+	}
+	}
+	
    	}
 
 }
